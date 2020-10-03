@@ -43,6 +43,7 @@ Remember to change this to an appropriate value for non-symmetric control dimens
 
 # Requirements
 - pytorch (>= 1.0)
+- `pip install gym`
 - `next state <- dynamics(state, action)` function (doesn't have to be true dynamics)
     - `state` is `K x nx`, `action` is `K x nu`
 - `cost <- running_cost(state, action)` function
